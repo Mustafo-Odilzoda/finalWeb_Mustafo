@@ -9,12 +9,12 @@ module.exports = {
         myheitralnu: '#D1EB91',
         mytemnogoltui: '#D4D279',
         myyrcogoltui: '#F5E98C',
-
+        veryDarkBlue: 'hsl(228, 12%, 13%)',
       },
       fontFamily: {
-      sans: ['Pixelify Sans'], 
+        sans: ['Pixelify Sans'],
       },
     },
   },
-plugins: [],
-  }
+  plugins: [],
+}
