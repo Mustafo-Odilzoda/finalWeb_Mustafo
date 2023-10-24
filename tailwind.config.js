@@ -11,9 +11,10 @@ module.exports = {
         myyrcogoltui: '#F5E98C',
         veryDarkBlue: 'hsl(228, 12%, 13%)',
         myslate: '#d4e5fc',
+        myblue: '#6da2f8' ,
       },
       fontFamily: {
-        sans: ['Pixelify Sans'],
+        sans: ['Carlito'],
       },
     },
   },

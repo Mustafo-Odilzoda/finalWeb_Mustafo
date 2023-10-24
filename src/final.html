@@ -12,8 +12,8 @@
 <body>
   <header class="flex justify-between bg-slate-400">
     <!-- logo -->
-    <img src="/src/snapedit_1697626888669.png" alt="" class="h-24 m-3 ">
-    <nav class="flex flex-col-reverse gap-5 md:flex-row py-2 border-4 border-black">
+    <img src="/src/snapedit_1697626888669.png" alt="" class="h-20 m-3 ">
+    <nav class="flex flex-col-reverse gap-5 md:flex-row py-2 ">
       <!-- border-2 border-solid // border-dashed // border-dotter // border-double -->
       <ul class="nav">
         <li><a href="#">Главная</a></li>
@@ -30,25 +30,25 @@
   <section id="hero" class="grid grid-cols-1 m-5 border-solid border-2 md:grid-cols-2 bg-myslate">
     <!-- border-solid border-2 -->
     <div class="flex flex-col justify-between text-3xl">
-      <div class="flex flex-col ml-40 mt-10 mb-36 space-y-12 md:w-1/2">
+      <div class="flex flex-col ml-40 mt-10 mb-28 space-y-12 md:w-1/2">
         <p class="max-w-md relative text-base font-light  text-slate-400 gap-y-20 md:text-2xl md:text-left">Фантазия дизайнера сайта.</p>
         <p class="text-focus-in max-w-md relative text-4xl font-bold text-center gap-y-20 md:text-5xl md:text-left">Сайт международных грузо-перевозок.</p>
-        <button class="example_e relative mr-52 p-1 px-3 pt-2 text-white  bg-blue-600  rounded-xl">Кнопка</button>
+        <button class="example_e relative align-text-top mr-48 h-16 px-3  text-white  bg-blue-800  rounded-xl">Тарифы</button>
       </div>
       <div>
         <!-- <p class="ml-40 relative -mt-20 ">Мы знаем свою работу❤️ <br>Быстрее только свет"</p> -->
-        <div class="flex items-center relative -mt-32 mb-10 ml-40">
+        <div class="flex items-center relative -mt-44  mb-10 ml-40">
           <!-- аватарка -->
-          <img src="/src/avatar-ali.png" alt="" class="h-32 p-3">
-          <h6 class="text-focus-in max-w-md relative text-3xl font-bold text-center gap-y-20 md:text-4xl md:text-left mb-8 md:relative left-4  md:font-bold">Жанара Ауфовна</h6>
+          <img src="/src/avatar-ali.png" alt="" class="h-36 p-3 -mt-52">
+          <h6 class="text-focus-in max-w-md relative text-lg font-bold text-center gap-y-20 md:text-2xl md:-mt-60  md:text-left mb-4 md:relative left-4  md:font-bold">Жанара Ауфовна</h6>
           <br>
-          <p class="text-focus-in max-w-md relative text-3xl font-bold text-center gap-y-20 md:text-4xl md:text-left md:mt-44  md:relative right-40 md:font-light">CEO транспортной компании</p>
+          <p class="text-focus-in italic max-w-md relative text-lg font-bold text-center gap-y-20 md:text-xl md:text-left md:-mt-32  md:relative right-40 md:font-light">CEO транспортной компании</p>
         </div>
       </div>
     </div>
     <!-- ключевая картинка справа -->
-    <div class="tiles mx-10 p-20 -mt-20  mb-48">
-      <a class="tile" href="#"><img src="/src/road-freight-768x1151.jpg"/>
+    <div class="tiles mx-10 p-20 -mt-20  mb-28">
+      <a class="tile resize"  href="#"><img src="/src/road-freight-768x1151.jpg"/>
         <div class="details"><span class="title text-myyrcogoltui">Авто-перевозки</span><span
             class="info text-myyrcogoltui">Срок доставки от 2-недель до 1 месяца</span></div>
       </a>
@@ -56,6 +56,16 @@
     </div>
   </section>
   <!-- hero end -->
+  <section id="cta" class="flex justify-between bg-gradient-to-r from-myblue to-blue-600 px-36 py-16 my-10">
+    <div class="w-2/3 relative ml-10">
+      <h3 class="text-myslate italic text-2xl">Можете убедитесь в качесте наших услуг.</h3>
+      <p class="text-myslate">Для новых клиентов доступна одна бесплатная доставка.</p>
+    </div>
+    <div class="w-1/3">
+      <button class="text-white text-xl bg-blue-700 px-3 m-3 h-16 w-32 rounded-xl tracking-widest hover:bg-blue-950">Заказать</button>
+    </div>
+
+  </section>
   <!-- feature -->
   <section id="feature" class="bg-myslate m-5">
     <!-- секция с картинкой и текстом -->
@@ -86,7 +96,7 @@
       </div>
       <div id="video-container">
         <!-- Тут видео с кнопкой -->
-        <video id="my-video" class="w-auto  " src="/src/video-0-55.5-tfXR5GtOU1g.mp4"></video>
+        <video id="my-video" class="w-auto" src="/src/video-0-55.5-tfXR5GtOU1g.mp4"></video>
         <button id="play-button"></button>
       </div>
     </div>
@@ -173,7 +183,8 @@
           </div>
         </form>
         <div class="hidden text-white md:block">
-          Copyright &copy; 2022, All Rights Reserved
+          Copyright &copy; 2022, All Rights Reserved <br>
+          Контакты для связи +7(980)490-42-49  
         </div>
       </div>
     </div>
