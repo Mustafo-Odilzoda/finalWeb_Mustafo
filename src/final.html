@@ -1,6 +1,5 @@
 <!doctype html>
 <html>
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +7,6 @@
   <link rel="stylesheet" href="/src/animahon.css">
   <link rel="stylesheet" href="/src/styles.css">
 </head>
-
 <body>
   <header class="flex justify-between bg-slate-400">
     <!-- logo -->
@@ -48,11 +46,10 @@
     </div>
     <!-- ключевая картинка справа -->
     <div class="tiles mx-10 p-20 -mt-20  mb-28">
-      <a class="tile resize"  href="#"><img src="/src/road-freight-768x1151.jpg"/>
+      <a class="tile resize rounded-2xl"  href="#"><img  src="/src/road-freight-768x1151.jpg"/>
         <div class="details"><span class="title text-myyrcogoltui">Авто-перевозки</span><span
             class="info text-myyrcogoltui">Срок доставки от 2-недель до 1 месяца</span></div>
       </a>
-      <!-- justify-between px-10 mt-8 object-fill w-96 -->
     </div>
   </section>
   <!-- hero end -->
@@ -101,7 +98,37 @@
       </div>
     </div>
   </section>
+  <section class="flex justify-between bg-gradient-to-r from-myblue to-blue-600 px-36 py-24 my-10">
+    <div class="justify-between relative text-center left-80 -mt-8">
+      <h2 class="text-3xl font-bold text-center relative">Lorem ipsum dolor sit amet.</h2>
+      <p class="justify-between relative text-center ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, asperiores itaque repellendus dolores reiciendis tempora.</p>
+    </div>
 
+    <div class="grid grid-cols-1 md:grid-cols-2">
+      <!-- первая колонка -->
+      <div class="flex flex-col left-40 items-center mt-24">
+        <img src="./avatar-shanai.png" alt="">
+        <p class="text-lg font-semibold">Shanai Ford</p>
+        <span>Manager</span>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2">
+      <!-- первая колонка -->
+      <div class="flex flex-col items-center mt-24">
+        <img src="./avatar-richard.png" alt="">
+        <p class="text-lg font-semibold">Richard Jons</p>
+        <span>Manager</span>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2">
+      <!-- первая колонка -->
+      <div class="flex flex-col items-center mt-24">
+        <img src="./avatar-anisha.png" alt="">
+        <p class="text-lg font-semibold">Shanai Li</p>
+        <span>Manager</span>
+      </div>
+    </div>
+  </section>
 
   <footer class="bg-slate-400 ">
     <!-- flex container  -->
@@ -159,15 +186,13 @@
       <!-- List container  -->
       <div class="flex justify-around space-x-32">
         <div class="flex flex-col space-y-3 text-white">
-          <a href="#" class="hover:text-brightRed">Home</a>
-          <a href="#" class="hover:text-brightRed">Pricing</a>
-          <a href="#" class="hover:text-brightRed">Products</a>
-          <a href="#" class="hover:text-brightRed">About</a>
+          <a href="#" class="hover:text-brightRed hover:text-myslate">Главная</a>
+          <a href="#" class="hover:text-brightRed hover:text-myslate">О нас</a>
+          <a href="#" class="hover:text-brightRed hover:text-myslate">Тарифы</a>
         </div>
         <div class="flex flex-col space-y-3 text-white">
-          <a href="#" class="hover:text-brightRed">Careers</a>
-          <a href="#" class="hover:text-brightRed">Comunity</a>
-          <a href="#" class="hover:text-brightRed">Privacy Policy</a>
+          <a href="#" class="hover:text-brightRed hover:text-myslate">Контакты</a>
+          <a href="#" class="hover:text-brightRed hover:text-myslate">Рабочие города</a>
         </div>
       </div>
       <!-- Input container  -->
@@ -191,6 +216,5 @@
   </footer>
   <script src="./scriptvideo.js"></script>
 </body>
-
 </html>
 <!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
