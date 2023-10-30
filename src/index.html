@@ -4,10 +4,235 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/src/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="/src/animahon.css">
+  <link rel="stylesheet" href="/src/styles.css">
 </head>
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <header class="flex justify-between bg-slate-400">
+    <!-- logo -->
+    <img src="/src/snapedit_1697626888669.png" alt="" class="h-20 m-3 ">
+    <nav class="flex flex-col-reverse gap-5 md:flex-row py-2 ">
+      <!-- border-2 border-solid // border-dashed // border-dotter // border-double -->
+      <ul class="nav">
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">О нас</a></li>
+        <li><a href="dz.html">Тарифы</a></li>
+        <li><a href="#">Контакты</a></li>
+        <li><a href="#">Рабочие города</a></li>
+        <button class="example_e m-3 px-3 py-0 rounded-xl">Связаться с нами</button>
+      </ul>
+      <!-- <button class="px-2 py-0 border">Связаться с нами</button> -->
+    </nav>
+  </header>
+  <!-- hero -->
+  <section id="hero" class="grid grid-cols-1 m-5 border-solid border-2 md:grid-cols-2 bg-myslate">
+    <!-- border-solid border-2 -->
+    <div class="flex flex-col justify-between text-3xl">
+      <div class="flex flex-col ml-40 mt-10 mb-28 space-y-12 md:w-1/2">
+        <p class="max-w-md relative text-base font-light  text-slate-400 gap-y-20 md:text-2xl md:text-left">Фантазия дизайнера сайта.</p>
+        <p class="text-focus-in max-w-md relative text-4xl font-bold text-center gap-y-20 md:text-5xl md:text-left">Сайт международных грузо-перевозок.</p>
+        <button class="example_e relative align-text-top mr-48 h-16 px-3  text-white  bg-blue-800  rounded-xl">Тарифы</button>
+      </div>
+      <div>
+        <!-- <p class="ml-40 relative -mt-20 ">Мы знаем свою работу❤️ <br>Быстрее только свет"</p> -->
+        <div class="flex items-center relative -mt-44  mb-10 ml-40">
+          <!-- аватарка -->
+          <img src="/src/avatar-ali.png" alt="" class="h-36 p-3 -mt-52">
+          <h6 class="text-focus-in max-w-md relative text-lg font-bold text-center gap-y-20 md:text-2xl md:-mt-60  md:text-left mb-4 md:relative left-4  md:font-bold">Жанара Ауфовна</h6>
+          <br>
+          <p class="text-focus-in italic max-w-md relative text-lg font-bold text-center gap-y-20 md:text-xl md:text-left md:-mt-32  md:relative right-40 md:font-light">CEO транспортной компании</p>
+        </div>
+      </div>
+    </div>
+    <!-- ключевая картинка справа -->
+    <div class="tiles mx-10 p-20 -mt-20  mb-28">
+      <a class="tile resize rounded-2xl"  href="#"><img  src="/src/road-freight-768x1151.jpg"/>
+        <div class="details"><span class="title text-myyrcogoltui">Авто-перевозки</span><span
+            class="info text-myyrcogoltui">Срок доставки от 2-недель до 1 месяца</span></div>
+      </a>
+    </div>
+  </section>
+  <!-- hero end -->
+  <section id="cta" class="flex justify-between bg-gradient-to-r from-myblue to-blue-600 px-36 py-16 my-10">
+    <div class="w-2/3 relative ml-10">
+      <h3 class="text-myslate italic text-2xl">Можете убедитесь в качесте наших услуг.</h3>
+      <p class="text-myslate">Для новых клиентов доступна одна бесплатная доставка.</p>
+    </div>
+    <div class="w-1/3">
+      <button class="text-white text-xl bg-blue-700 px-3 m-3 h-16 w-32 rounded-xl tracking-widest hover:bg-blue-950">Заказать</button>
+    </div>
+
+  </section>
+  <!-- feature -->
+  <section id="feature" class="bg-myslate m-5">
+    <!-- секция с картинкой и текстом -->
+    <div class="grid grid-cols-1 md:grid-cols-2">
+      <div id="left-part">
+        <!-- слева фото  -->
+        <img src="/src/snapedit_1697626888669.png" class="p-5"  alt="">
+      </div>
+      <div id="right-part">
+        <div id="opisanie" class="text-black leading-6 text-focus-in max-w-md relative text-4xl font-bold text-center gap-y-20 md:text-5xl md:text-left">
+          <h1 class="text-3xl m-3 relative left-2">Смешная история нашего девиза:</h1>
+          <p class="text-base relative left-5">В 1992 когда мы открылись и приняли свой первый заказ, бандиты пытались отжать у нас грузовик,тогда наш диспетчер Миша сказал водителю фразу ставшей нашем девизом run bitch run.</p> 
+        </div>
+      </div>
+    </div>
+    <!-- секция с текстом и видео -->
+    <div class="grid grid-cols-1 md:grid-cols-2 p-5">
+      <div id="opisanie" class="text-black text-focus-in max-w-md relative text-4xl font-bold text-center gap-y-20 md:text-5xl md:text-left">
+        <h1 class="text-3xl m-3 relative ml-4 ">Наши преимущества:</h1>
+        <br>
+        <p class="text-xl m-3">✓ Большая география доставок</p>
+        <br>
+        <p class="text-xl m-3">✓ Быстрая Доставка</p>
+        <br>
+        <p class="text-xl m-3">✓ Доступная цена</p>
+        <br>
+        <p class="text-xl m-3">✓ Компенсация стоимости груза в случаи повреждения или утраты</p>
+      </div>
+      <div id="video-container">
+        <!-- Тут видео с кнопкой -->
+        <video id="my-video" class="w-auto" src="/src/video-0-55.5-tfXR5GtOU1g.mp4"></video>
+        <button id="play-button"></button>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="bg-gradient-to-l from-myblue to-blue-700 -mt-24 mb-5">
+		<!-- general testimon container -->
+		<div class="max-w-6xl px-5 mx-auto mt-32 text-center">
+			<!-- Heading -->
+			<h2 class="text-4xl font-bold text-center">
+				Отзывы наших клиентов
+			</h2>
+      <p class="text-xl italic text-center">Отзывы наших клиентов о нашей работе</p>
+			<!-- Отзывы Container -->
+			<div class="flex flex-col mt-24 md:flex-row md:space-x-6 space-y-8">
+				<!-- ***сюда отзыв 1, 2, 3 *** -->
+				<!-- Отзыв 1 -->
+				<div class="flex flex-col items-center p-6 space-y-6 mt-8 rounded-lg bg-veryLightGray md:w-1/3">
+					<img src="./avatar-anisha.png" class="w-16 -mt-14" alt="" />
+					<h5 class="text-lg font-bold">Anisha Li</h5>
+					<p class="text-sm italic font-semibold">
+						“Manage has supercharged our team’s workflow. The
+						ability to maintain visibility on larger milestones
+						at all times keeps everyone motivated.”
+					</p>
+				</div>
+
+				<!-- Отзыв 2 -->
+				<div class=" flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray  md:w-1/3">
+					<img src="./avatar-ali.png" class="w-16 -mt-14" alt=""/>
+					<h5 class="text-lg font-bold">Ali Bravo</h5>
+					<p class="text-sm italic font-semibold">
+						“We have been able to cancel so many other
+						subscriptions since using Manage. There is no more
+						cross-channel confusion and everyone is much more
+						focused.”
+					</p>
+				</div>
+
+				<!-- Отзыв 3 -->
+				<div class=" flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray  md:w-1/3">
+					<img src="./avatar-richard.png" class="w-16 -mt-14" alt=""/>
+					<h5 class="text-lg font-bold">Richard Watts</h5>
+					<p class="text-sm italic font-semibold">
+						“Manage has supercharged our team’s workflow. The
+						ability to maintain visibility on larger milestones
+						at all times keeps everyone motivated.”
+					</p>
+				</div>
+			</div>
+
+		</div> <!-- Закрывающий Отзыв container -->
+	</section>
+
+  <footer class="bg-slate-400 ">
+    <!-- flex container  -->
+    <div class="container flex flex-col-reverse md:flex-row justify-between px-6 py-10 mx-auto space-y-8 md:space-y-0">
+      <!-- Logo links container  -->
+      <div
+        class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+        <!-- copyright -->
+        <div class="mx-auto my-6 text-center text-white md:hidden">
+          Copyright &copy; 2023, All Rights Reserved
+        </div>
+        <!-- Logo  -->
+        <div class="">
+          <img src="/src/snapedit_1697626888669.png" class="h-16 -m-3"/>
+        </div>
+        <!-- Social links  -->
+        <div class="flex justify-center space-x-4">
+          <!-- Link fb  -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-8">
+            <a href="https://ru-ru.facebook.com/">
+              <path class="fill-gray-100 hover:fill-[#0165E1] duration-500  "
+                d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z" />
+          </svg>
+          </a>
+          <!-- Link youtube  -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="h-8 ">
+            <a href="https://www.youtube.com/">
+              <path class="fill-gray-100 hover:fill-[#FF0000] duration-500"
+                d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" />
+          </svg>
+          <!-- Link twit  -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-8">
+            <a href="https://twitter.com/">
+              <path class="fill-gray-100 hover:fill-[#1D9BF0] duration-500"
+                d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM351.3 199.3v0c0 86.7-66 186.6-186.6 186.6c-37.2 0-71.7-10.8-100.7-29.4c5.3 .6 10.4 .8 15.8 .8c30.7 0 58.9-10.4 81.4-28c-28.8-.6-53-19.5-61.3-45.5c10.1 1.5 19.2 1.5 29.6-1.2c-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3c-9-6-16.4-14.1-21.5-23.6s-7.8-20.2-7.7-31c0-12.2 3.2-23.4 8.9-33.1c32.3 39.8 80.8 65.8 135.2 68.6c-9.3-44.5 24-80.6 64-80.6c18.9 0 35.9 7.9 47.9 20.7c14.8-2.8 29-8.3 41.6-15.8c-4.9 15.2-15.2 28-28.8 36.1c13.2-1.4 26-5.1 37.8-10.2c-8.9 13.1-20.1 24.7-32.9 34c.2 2.8 .2 5.7 .2 8.5z" />
+          </svg>
+          </a>
+          <!-- Link pinterest  -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="h-8">
+            <a href="https://ru.pinterest.com/">
+              <path class="fill-gray-100 hover:fill-[#E60023] duration-500"
+                d="M496 256c0 137-111 248-248 248-25.6 0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8 0 128.7-68.8 128.7-154.3 0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1 0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6 0-54.7 41.4-107.6 112-107.6 60.9 0 103.6 41.5 103.6 100.9 0 67.1-33.9 113.6-78 113.6-24.3 0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6 0-19-10.2-34.9-31.4-34.9-24.9 0-44.9 25.7-44.9 60.2 0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9 0 361.1 0 256 0 119 111 8 248 8s248 111 248 248z" />
+          </svg>
+          </a>
+          <!-- Link insta  -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="h-8">
+            <a href="https://www.instagram.com/?hl=ru">
+              <path class="fill-gray-100 hover:fill-[#833AB4] duration-500"
+                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+          </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- List container  -->
+      <div class="flex justify-around space-x-32">
+        <div class="flex flex-col space-y-3 text-white">
+          <a href="#" class="hover:text-brightRed hover:text-myslate">Главная</a>
+          <a href="#" class="hover:text-brightRed hover:text-myslate">О нас</a>
+          <a href="#" class="hover:text-brightRed hover:text-myslate">Тарифы</a>
+        </div>
+        <div class="flex flex-col space-y-3 text-white">
+          <a href="#" class="hover:text-brightRed hover:text-myslate">Контакты</a>
+          <a href="#" class="hover:text-brightRed hover:text-myslate">Рабочие города</a>
+        </div>
+      </div>
+      <!-- Input container  -->
+      <!-- Input Container -->
+      <div class="flex flex-col justify-between">
+        <form>
+          <div class="flex space-x-3">
+            <input type="text" class="flex-1 px-4 rounded-full focus:outline-none"
+              placeholder="Updated in your inbox" />
+            <button class="px-6 py-2 text-white rounded-full bg-brightRed hover:bg-brightRedLight focus:outline-none">
+              Go
+            </button>
+          </div>
+        </form>
+        <div class="hidden text-white md:block">
+          Copyright &copy; 2022, All Rights Reserved <br>
+          Контакты для связи +7(980)490-42-49  
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./scriptvideo.js"></script>
 </body>
 </html>
+<!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
